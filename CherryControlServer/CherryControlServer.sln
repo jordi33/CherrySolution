@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29021.104
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "CherryControlServer\Main.csproj", "{F430B2E2-306B-4BA1-8109-1F17BBD1740C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CherryController", "CherryController\CherryController.csproj", "{D6731333-E142-4E34-9F4C-97C59C4B3CF3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{93D54587-9B66-4C87-A260-D9328CC5397B} = {93D54587-9B66-4C87-A260-D9328CC5397B}
+		{508B2C88-887D-48F3-BA74-FD1F596D0623} = {508B2C88-887D-48F3-BA74-FD1F596D0623}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudServices", "CloudServices\CloudServices.csproj", "{1185B855-2963-4F33-91FD-C0EDA7A52098}"
+	ProjectSection(ProjectDependencies) = postProject
+		{508B2C88-887D-48F3-BA74-FD1F596D0623} = {508B2C88-887D-48F3-BA74-FD1F596D0623}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Communications", "Communications\Communications.csproj", "{03A59158-6988-481A-ABAF-7C0ECFDD1A77}"
+	ProjectSection(ProjectDependencies) = postProject
+		{508B2C88-887D-48F3-BA74-FD1F596D0623} = {508B2C88-887D-48F3-BA74-FD1F596D0623}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{06C276A3-F452-42C3-A59B-9C080B9FB26F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{508B2C88-887D-48F3-BA74-FD1F596D0623} = {508B2C88-887D-48F3-BA74-FD1F596D0623}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{7224D273-8E23-42C5-A9AA-2461F3790451}"
+	ProjectSection(ProjectDependencies) = postProject
+		{508B2C88-887D-48F3-BA74-FD1F596D0623} = {508B2C88-887D-48F3-BA74-FD1F596D0623}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCherryControlerServer", "TestCherryControlerServer\TestCherryControlerServer.csproj", "{C6EF0133-C8DF-48DA-88D8-9FFE5FDFE1B2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{508B2C88-887D-48F3-BA74-FD1F596D0623} = {508B2C88-887D-48F3-BA74-FD1F596D0623}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{93D54587-9B66-4C87-A260-D9328CC5397B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{508B2C88-887D-48F3-BA74-FD1F596D0623} = {508B2C88-887D-48F3-BA74-FD1F596D0623}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitoring", "Monitoring\Monitoring.csproj", "{508B2C88-887D-48F3-BA74-FD1F596D0623}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F430B2E2-306B-4BA1-8109-1F17BBD1740C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F430B2E2-306B-4BA1-8109-1F17BBD1740C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F430B2E2-306B-4BA1-8109-1F17BBD1740C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F430B2E2-306B-4BA1-8109-1F17BBD1740C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6731333-E142-4E34-9F4C-97C59C4B3CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6731333-E142-4E34-9F4C-97C59C4B3CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6731333-E142-4E34-9F4C-97C59C4B3CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6731333-E142-4E34-9F4C-97C59C4B3CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1185B855-2963-4F33-91FD-C0EDA7A52098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1185B855-2963-4F33-91FD-C0EDA7A52098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1185B855-2963-4F33-91FD-C0EDA7A52098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1185B855-2963-4F33-91FD-C0EDA7A52098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A59158-6988-481A-ABAF-7C0ECFDD1A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A59158-6988-481A-ABAF-7C0ECFDD1A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A59158-6988-481A-ABAF-7C0ECFDD1A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A59158-6988-481A-ABAF-7C0ECFDD1A77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06C276A3-F452-42C3-A59B-9C080B9FB26F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C276A3-F452-42C3-A59B-9C080B9FB26F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C276A3-F452-42C3-A59B-9C080B9FB26F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C276A3-F452-42C3-A59B-9C080B9FB26F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7224D273-8E23-42C5-A9AA-2461F3790451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7224D273-8E23-42C5-A9AA-2461F3790451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7224D273-8E23-42C5-A9AA-2461F3790451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7224D273-8E23-42C5-A9AA-2461F3790451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6EF0133-C8DF-48DA-88D8-9FFE5FDFE1B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6EF0133-C8DF-48DA-88D8-9FFE5FDFE1B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6EF0133-C8DF-48DA-88D8-9FFE5FDFE1B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6EF0133-C8DF-48DA-88D8-9FFE5FDFE1B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D54587-9B66-4C87-A260-D9328CC5397B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D54587-9B66-4C87-A260-D9328CC5397B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D54587-9B66-4C87-A260-D9328CC5397B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D54587-9B66-4C87-A260-D9328CC5397B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508B2C88-887D-48F3-BA74-FD1F596D0623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508B2C88-887D-48F3-BA74-FD1F596D0623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508B2C88-887D-48F3-BA74-FD1F596D0623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508B2C88-887D-48F3-BA74-FD1F596D0623}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DD8AF39-2AA8-47F3-A8F7-0FA8FB921C5A}
+	EndGlobalSection
+EndGlobal

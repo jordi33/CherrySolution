@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CloudServices.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SttLangCode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">fr-FR</Value>
+    </Setting>
+    <Setting Name="SttSampleRate" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">44100</Value>
+    </Setting>
+    <Setting Name="SttInterimResults" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SttSingleUtterance" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SttResetTime" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">60000</Value>
+    </Setting>
+    <Setting Name="ApiKeyPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">yourApiKeyPath</Value>
+    </Setting>
+    <Setting Name="TtsLangCode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">fr-FR</Value>
+    </Setting>
+    <Setting Name="TtsName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">fr-FR-Wavenet-A</Value>
+    </Setting>
+    <Setting Name="TtsPitch" Type="System.Double" Scope="Application">
+      <Value Profile="(Default)">2.5</Value>
+    </Setting>
+    <Setting Name="TtsRate" Type="System.Double" Scope="Application">
+      <Value Profile="(Default)">0.85</Value>
+    </Setting>
+    <Setting Name="TtsGain" Type="System.Double" Scope="Application">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="TmpDir" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">..\tmp\</Value>
+    </Setting>
+    <Setting Name="DfToken" Type="System.String" Scope="User">
+      <Value Profile="(Default)">yourDialogFlowTokenApi</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

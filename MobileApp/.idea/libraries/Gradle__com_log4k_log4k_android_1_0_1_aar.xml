@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.log4k:log4k-android:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dc1a1447be9a1ab1595fc753670d052a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dc1a1447be9a1ab1595fc753670d052a/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.log4k/log4k-android/1.0.1/c495667f416b7e614bee0a478777d7b77056f3ed/log4k-android-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

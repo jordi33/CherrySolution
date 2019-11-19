@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">CherryApp</string>
+    <string name="api_key">API TO SUBMIT</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="change_layout_manager">Change Layout</string>
+
+    <string name="title_memory">Memory Game</string>
+    <string name="first_memory_game_size_choice">3x4</string>
+    <string name="second_memory_game_size_choice">4x4</string>
+    <string name="third_memory_game_size_choice">5x4</string>
+    <string name="title_activity_choose">ChooseActivity</string>
+    <string name="three_game_button">3x4 Game</string>
+    <string name="four_game_button">4x4 Game</string>
+    <string name="five_game_button">5x4 Game</string>
+    <string name="return_button">Return</string>
+    <string name="counter_text_view">0</string>
+
+    <string name="preference_server_title">Configuration du serveur</string>
+    <string name="connected_poppies_title_text">Liste des robots connectés:</string>
+    <string name="no_connected_poppies_title_text">Aucun Robot connecté actuellement</string>
+
+    <string name="joke_activity_title">Bienvenue sur la page de blagues</string>
+
+    <string name="calculator_zero_string">0</string>
+    <string name="calculator_one_string">1</string>
+    <string name="calculator_two_string">2</string>
+    <string name="calculator_three_string">3</string>
+    <string name="calculator_four_string">4</string>
+    <string name="calculator_five_string">5</string>
+    <string name="calculator_six_string">6</string>
+    <string name="calculator_seven_string">7</string>
+    <string name="calculator_eight_string">8</string>
+    <string name="calculator_nine_string">9</string>
+    <string name="calculator_plus_string">+</string>
+    <string name="calculator_minus_string">-</string>
+    <string name="calculator_mult_string">*</string>
+    <string name="calculator_div_string">/</string>
+    <string name="calculator_compute_string">Calculer</string>
+    <string name="calculator_validate_string">=</string>
+    <string name="calculator_erase_string">Effacer</string>
+    <string name="next_level">Niveau Suivant</string>
+    <string name="choregraphy_name_chose_text">Rentrer le nom de la chorégraphie</string>
+    <string name="play_choregraphy_text">Jouer la chorégraphie</string>
+    <string name="delete_choregraphy_text">Supprimer la chorégraphie</string>
+    <string name="save_choregraphy_text">Sauvegarder la chorégraphie</string>
+    <string name="choregraphy_gv_description_text">Mouvements actuels de la chorégraphie</string>
+    <string name="choregraphy_add_move_table_description_text">Cliquer pour ajouter un mouvement</string>
+    <string name="add_choregraphy_btn_text">Ajouter une Chorégraphie</string>
+    <string name="play_tale_btn_text">Faire dire l\'histoire au robot</string>
+    <string name="tale_choice_text">Liste des contes:</string>
+    <string name="tale_choice_text_no_items">Aucun conte trouvé</string>
+    <string name="moves_activity_description">Appuyer sur un bouton pour jouer le mouvement sur le robot</string>
+
+    <string name="choregraphy_music_rock">Rock</string>
+    <string name="choregraphy_music_pop">Pop</string>
+    <string name="choregraphy_music_electro">Electro</string>
+    <string name="choregraphy_music_choice">Choisir votre musique</string>
+</resources>

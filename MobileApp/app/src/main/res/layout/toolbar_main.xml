@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_cherry"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:paddingBottom="5dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- This is a centered logo -->
+        <ImageView
+            android:id="@+id/toolbar_logo"
+            android:layout_width="686dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/ic_header_primakid_navbar" />
+
+
+        <!-- This is a custom left side button -->
+        <ImageButton
+            android:id="@+id/home_btn"
+            style="@style/Widget.AppCompat.ActionButton"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginRight="?attr/actionBarSize"
+            android:src="@drawable/baseline_home_white_18dp" />
+
+
+        <!-- This is a custom right side button -->
+        <ImageButton
+            android:id="@+id/settings_btn"
+            style="@style/Widget.AppCompat.ActionButton"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="end"
+            android:src="@drawable/baseline_settings_white_18dp" />
+
+
+    </FrameLayout>
+</androidx.appcompat.widget.Toolbar>

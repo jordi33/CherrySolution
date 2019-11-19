@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preference_server_title">
+        <EditTextPreference android:selectAllOnFocus="true"
+                            android:singleLine="true"
+                            android:title="Select the IP Address" android:key="ip_address_preference"
+                            android:summary="Edit text preference" android:defaultValue="127.0.0.123"/>
+
+        <EditTextPreference  android:selectAllOnFocus="true"
+                             android:singleLine="true"
+                             android:title="Select the server Port" android:key="port_preference"
+                             android:summary="Edit port preference" android:defaultValue="5000"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_server_title">
+        <Preference
+                android:key="set_poppy_link"
+                android:title="Set Poppy"
+                android:summary="Click to link the application to the connected Poppy Robot">
+        <intent
+                android:action="com.sogeti.inno.cherry.activities.network.PoppySelectionActivity"/>
+                <!--android:targetPackage="com.sogeti.inno.cherry.activities.network"-->
+                <!--android:targetClass="com.sogeti.inno.cherry.activities.PoppySelectionActivity"-->
+            <!--/>-->
+        </Preference>
+
+    </PreferenceCategory>
+</PreferenceScreen>

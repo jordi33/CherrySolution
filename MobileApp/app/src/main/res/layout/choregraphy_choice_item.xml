@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/choregraphy_choice_name_pl">
+
+    <TextView
+        android:id="@+id/choregraphy_choice_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:background="@drawable/rectangle_back"
+        android:padding="5dp"
+        android:layout_margin="2dp"/>
+</LinearLayout>

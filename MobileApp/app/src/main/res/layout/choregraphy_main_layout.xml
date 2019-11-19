@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main"
+    android:orientation="vertical"
+        android:background="#deecf1"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <include layout="@layout/toolbar_main"/>
+
+
+    <TextView
+        android:id="@+id/choregraphy_main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Crée ta propre chorégraphie"
+        android:textSize="20sp"/>
+
+    <TableLayout
+            android:id="@+id/add_move_table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:stretchColumns="*"
+            android:visibility="visible">
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <Button
+                    android:id="@+id/add_dab_to_chore_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="121dp"
+                    android:drawableTop="@drawable/dab"
+                    android:tag="dab" />
+
+
+            <Button
+                    android:id="@+id/add_twist_to_chore_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="121dp"
+                    android:drawableTop="@drawable/twist"
+                    android:tag="twist" />
+
+            <Button
+                    android:id="@+id/add_balancing_to_chore_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="121dp"
+                    android:layout_marginBottom="10dp"
+                    android:drawableTop="@drawable/balancing"
+                    android:tag="balancing" />
+
+            <Button
+                    android:id="@+id/add_shake_to_chore_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="121dp"
+                    android:drawableTop="@drawable/shaking"
+                    android:tag="shaking" />
+
+            <Button
+                    android:id="@+id/add_r_arm_fwd_to_chore_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="121dp"
+                    android:drawableTop="@drawable/r_arm_fwd"
+                    android:tag="r_arm_fwd" />
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <Button
+                    android:id="@+id/add_l_arm_fwd_to_chore_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="121dp"
+                    android:drawableTop="@drawable/l_arm_fwd"
+                    android:tag="l_arm_fwd" />
+
+            <Button
+                    android:id="@+id/add_r_arm_bwd_to_chore_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="121dp"
+                    android:drawableTop="@drawable/r_arm_back"
+                    android:tag="r_arm_back" />
+
+            <Button
+                    android:id="@+id/add_l_arm_bwd_to_chore_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="121dp"
+                    android:drawableTop="@drawable/l_arm_back"
+                    android:tag="l_arm_back" />
+
+            <Button
+                    android:id="@+id/add_r_elbow_up_to_chore_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="121dp"
+                    android:drawableTop="@drawable/r_arm_up"
+                    android:tag="r_arm_up" />
+
+            <Button
+                    android:id="@+id/add_l_elbow_up_to_chore_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="121dp"
+                    android:drawableTop="@drawable/l_arm_up"
+                    android:tag="l_arm_up" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+            android:id="@+id/musicLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <ImageButton
+                android:id="@+id/choregraphy_pop_button"
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:maxWidth="20dp"
+                android:maxHeight="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/micro_icon" />
+
+
+
+        <ImageButton
+                android:id="@+id/choregraphy_rock_button"
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:maxWidth="20dp"
+                android:maxHeight="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/guitar" />
+
+        <ImageButton
+                android:id="@+id/choregraphy_electro_button"
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:maxWidth="20dp"
+                android:maxHeight="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/casque"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+            android:id="@+id/mainPlay"
+        >
+
+        <ImageButton
+                android:id="@+id/play_choregraphy_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:maxWidth="180dp"
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/play" />
+
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/choregraphy_moves_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="4"
+            android:visibility="invisible">
+
+
+    </GridView>
+
+    <ImageView
+            android:id="@+id/imageNote"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="120dp">
+
+    </ImageView>
+
+</LinearLayout>

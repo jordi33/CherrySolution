@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sogeti.inno.cherry">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activities.ui.choregraphy.ChoregraphyChoiceActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".activities.ui.wordImages.FourImagesOneWord"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".activities.ui.memory.MemoryActivityMain"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".activities.ui.SettingsActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".activities.ui.joke.JokeListActivityMain"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".activities.ui.game.GameListActivityMain"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".activities.ui.child.ChildListActivityMain"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".activities.ui.userLogin.UserLoginActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".activities.ui.moves.MovesActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".activities.ui.calculator.CalculatorActivityMain"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".activities.PoppySelectionActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.sogeti.inno.cherry.activities.network.PoppySelectionActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.ui.choregraphy.ChoregraphyMainActivity"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".activities.ui.wordImages.WordImagesActivityMain"
+                  android:screenOrientation="landscape"/>
+        <activity android:name=".activities.ui.tales.TalesChoiceActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activities.ui.tales.TalesActivity"
+            android:screenOrientation="landscape"/>
+
+    </application>
+
+</manifest>

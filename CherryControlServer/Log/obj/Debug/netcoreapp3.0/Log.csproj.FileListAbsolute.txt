@@ -1,0 +1,5 @@
+C:\Users\rtisne\cherryproject\ControlServer\CherryControlServer\Log\bin\Debug\netcoreapp3.0\Log.exe
+C:\Users\rtisne\cherryproject\ControlServer\CherryControlServer\Log\obj\Debug\netcoreapp3.0\Log.csprojAssemblyReference.cache
+C:\Users\rtisne\cherryproject\ControlServer\CherryControlServer\Log\obj\Debug\netcoreapp3.0\Log.csproj.CoreCompileInputs.cache
+C:\Users\rtisne\cherryproject\ControlServer\CherryControlServer\Log\obj\Debug\netcoreapp3.0\Log.AssemblyInfoInputs.cache
+C:\Users\rtisne\cherryproject\ControlServer\CherryControlServer\Log\obj\Debug\netcoreapp3.0\Log.AssemblyInfo.cs

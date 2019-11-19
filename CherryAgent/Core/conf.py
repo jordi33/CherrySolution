@@ -1,0 +1,11 @@
+# This address is for the Cloud instance
+ws_server_ip = "ws://192.168.0.112"
+#ws_server_ip = "ws://192.168.0.121"
+#ws_server_ip = "ws://192.168.43.126"
+ws_server_port = "8001"
+poppy_connect_url = "/newpoppy"
+file_server_ip = "http://192.168.0.112"
+#file_server_ip = "http://192.168.0.121"
+#file_server_ip = "http://192.168.43.126"
+file_server_port = "8002"
+get_file_url = "/api/resource/"
